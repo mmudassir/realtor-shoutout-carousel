@@ -44,7 +44,9 @@ def css(c):
 body{{background:#ccc;font-family:'DM Sans',-apple-system,'Helvetica Neue',sans-serif}}
 .c{{width:{W}px;height:{H}px;position:relative;overflow:hidden;background:{c['ground']};color:{c['ink']}}}
 .tm{{position:absolute;top:60px;left:{MARGIN}px;height:120px}}
-.lane{{position:absolute;top:150px;right:{MARGIN}px;font-family:'Courier New',monospace;font-size:30px;letter-spacing:1px;white-space:nowrap}}
+.lane{{position:absolute;top:140px;right:{MARGIN}px;display:flex;align-items:center;gap:16px;font-family:'Courier New',monospace;font-size:26px;white-space:nowrap}}
+.lane .tag{{background:{c['ink']};color:{c['ground']};padding:8px 16px 8px 14px;border-radius:6px;font-weight:700;letter-spacing:3px;border-left:8px solid {c['accent']}}}
+.lane .num{{letter-spacing:2px;color:{c['muted']}}}
 .gr{{position:absolute;top:222px;left:{MARGIN}px;right:{MARGIN}px;height:8px;background:{c['accent']}}}
 .flow{{position:absolute;top:290px;left:{MARGIN}px;right:110px;bottom:298px;display:flex;flex-direction:column;gap:48px}}
 .flow.who{{top:584px;gap:12px}}
@@ -95,7 +97,7 @@ def build(spec, base):
             if s.get("body"):
                 parts.append(f'<div class="{"sub" if s.get("ask") else "body"}">{esc(s["body"])}</div>')
             mid = '<div class="flow">' + "".join(parts) + "</div>"
-        out.append(f'''<div class="c"><img class="tm" src="{tm}"><div class="lane">{esc(b["lane_label"])} / 0{i}</div>
+        out.append(f'''<div class="c"><img class="tm" src="{tm}"><div class="lane"><span class="tag">{esc(b["lane_label"])}</span><span class="num">0{i} / 0{n}</span></div>
 <div class="gr"></div>{mid}<div class="sig">{esc(b["signature"])}</div><div class="prog">{pips}{arrow}</div>
 <img class="duo" src="{duo}"><div class="hl"></div><div class="site">{esc(b["site"])}</div>
 <div class="bs">{esc(b["tagline"])}</div><img class="os" src="{os_}"></div>''')
