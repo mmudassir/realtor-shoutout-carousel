@@ -47,7 +47,7 @@ body{{background:#ccc;font-family:'DM Sans',-apple-system,'Helvetica Neue',sans-
 .lane{{position:absolute;top:140px;right:{MARGIN}px;display:flex;align-items:center;gap:16px;font-family:'Courier New',monospace;font-size:26px;white-space:nowrap}}
 .lane .tag{{background:{c['accent']};color:{c['ink']};padding:8px 16px;font-weight:700;letter-spacing:3px}}
 .lane .num{{letter-spacing:2px;color:{c['muted']}}}
-.gr{{position:absolute;top:222px;left:{MARGIN}px;right:{MARGIN}px;height:8px;background:{c['accent']}}}
+.gr{{position:absolute;top:222px;left:{MARGIN}px;right:{MARGIN}px;height:8px;background:{c['ink']}}}
 .flow{{position:absolute;top:290px;left:{MARGIN}px;right:110px;bottom:298px;display:flex;flex-direction:column;gap:48px}}
 .flow.who{{top:584px;gap:12px}}
 .h{{font-size:92px;font-weight:800;line-height:1.3;letter-spacing:-2px;text-wrap:balance}}
