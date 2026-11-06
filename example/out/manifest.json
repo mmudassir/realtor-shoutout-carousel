@@ -1,0 +1,25 @@
+{
+  "slides": [
+    {
+      "file": "slide-01.jpg",
+      "bytes": 125857,
+      "alt": "Slide 1. Headline: I recommend Mario's Plumbing, with the reason: fixed a client's boiler at 11 pm on a Sunday with no markup."
+    },
+    {
+      "file": "slide-02.jpg",
+      "bytes": 106886,
+      "alt": "Slide 2. Mario Rossi, owner of Mario's Plumbing in Smithtown, NY, with his phone number and Instagram handle."
+    },
+    {
+      "file": "slide-03.jpg",
+      "bytes": 131416,
+      "alt": "Slide 3. Know someone who needs a plumber? Tag them in the comments, and save this post for later."
+    }
+  ],
+  "problems": [],
+  "vertical_math": [
+    "slide 1: tm 60-180 | lane 150-184 | gr 222-230 | h 290-529 | body 577-763 | duo 1012-1176 | sig 1050-1089 | prog 1114-1138 | hl 1176-1178 | site 1190-1221 | os 1192-1260 | bs 1228-1253",
+    "slide 2: tm 60-180 | lane 150-184 | gr 222-230 | pbg 240-560 | bn 584-651 | br 663-711 | reason 731-787 | bd 807-987 | duo 1012-1176 | sig 1050-1089 | prog 1114-1138 | hl 1176-1178 | site 1190-1221 | os 1192-1260 | bs 1228-1253",
+    "slide 3: tm 60-180 | lane 150-184 | gr 222-230 | h 290-649 | ask 697-755 | sub 803-927 | duo 1012-1176 | sig 1050-1089 | prog 1114-1138 | hl 1176-1178 | site 1190-1221 | os 1192-1260 | bs 1228-1253"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "brand": {
+    "logo_top": "assets/logo-top.png",
+    "logo_bottom": "assets/logo-bottom.png",
+    "duo": "assets/duo.png",
+    "signature": "Your Team at Your Brokerage",
+    "site": "YOURSITE.COM",
+    "tagline": "BUY / SELL / OWN / INVEST",
+    "lane_label": "SHOUTOUT",
+    "colors": {
+      "ground": "#f7f2e6",
+      "ink": "#161b1d",
+      "accent": "#f2b705",
+      "muted": "#4a4a47",
+      "panel": "#e8e2d4",
+      "avatar": "#ddd8ca"
+    }
+  },
+  "slides": [
+    {
+      "type": "why",
+      "title": "I recommend\nMario's Plumbing",
+      "mark": "Mario's Plumbing",
+      "body": "Fixed my client's boiler at 11 pm on a Sunday. No markup. That is the kind of person you want on speed dial.",
+      "alt": "Slide 1. Headline: I recommend Mario's Plumbing, with the reason: fixed a client's boiler at 11 pm on a Sunday with no markup."
+    },
+    {
+      "type": "who",
+      "initials": "MR",
+      "name": "Mario Rossi",
+      "role": "Owner, Mario's Plumbing",
+      "reason": "Fixed a boiler at 11 pm on a Sunday.",
+      "lines": [
+        "Smithtown, NY",
+        "(631) 555-0199",
+        "@mariosplumbing"
+      ],
+      "alt": "Slide 2. Mario Rossi, owner of Mario's Plumbing in Smithtown, NY, with his phone number and Instagram handle."
+    },
+    {
+      "type": "do",
+      "title": "Know someone\nwho needs a plumber?",
+      "mark": "a plumber?",
+      "ask": "Tag them in the comments.",
+      "body": "Good people should get the next call. Save this post for the day you need it.",
+      "alt": "Slide 3. Know someone who needs a plumber? Tag them in the comments, and save this post for later."
+    }
+  ]
+}
